@@ -7,7 +7,7 @@ import Updateuser from './components/Updateuser';
         return (
             <BrowserRouter>
                 <Routes>
-            <Route path="/" element={<Navigate to="/Loginuser" replace />} />
+            <Route path="/" element={<Navigate to="/Updateuser" replace />} />
         <Route path="/Loginuser" element={<Loginuser />} />
         <Route path="/Updateuser" element={<Updateuser />} />
                 </Routes>
